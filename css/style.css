@@ -1,0 +1,373 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  position: absolute;
+  z-index: 9999;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #2d2d30;
+  border: 0;
+  font-size: 12px !important;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.parallax {
+  /* Image used */
+  background-image: url("../assets/sbp_002.jpg");
+  /* Specific height */
+  min-height: 500px;
+  /* Prallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* Image used */
+  background-image: url("../assets/sbp_003.jpg");
+  /* Specific height */
+  min-height: 500px;
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*Social Media Navbar*/
+#social-navbar {
+  list-style: none;
+  width: 35px;
+  height: 185px;
+  top: 0px;
+  bottom: 0px;
+  left: 50px;
+  position: fixed;
+  margin: auto;
+  z-index: 50;
+}
+
+/*Social Media Icons*/
+#social-icons {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+.list-group {
+  list-style: none;
+}
+
+.myGallery {
+  width: 100%;
+}
+
+/*Home Page*/
+#banner-image {
+  background-image: url("../assets/banner-img.jpg");
+  background-attachment: fixed;
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*Home Page*/
+.banner-text {
+  position: absolute;
+  bottom: 90px;
+  right: 16px;
+  color: white;
+  font-size: 400%;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Portfolio Page*/
+#banner-image-2 {
+  background-image: url("../assets/banner-img-2.jpg");
+  background-attachment: fixed;
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*Portfolio Page*/
+.banner-text-2 {
+  position: absolute;
+  bottom: 90px;
+  right: 16px;
+  color: white;
+  font-size: 400%;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Contact Us Section*/
+#banner-image-3 {
+  background-image: url("../assets/banner-img-3.jpg");
+  background-attachment: fixed;
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text-3 {
+  position: absolute;
+  bottom: 90px;
+  right: 16px;
+  color: white;
+  font-size: 400%;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Media Page*/
+#banner-image-4 {
+  background-image: url("../assets/banner-img-4.jpg");
+  background-attachment: fixed;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*Media Page*/
+.banner-text-4 {
+  position: absolute;
+  color: white;
+  font-size: 370%;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*Media Page*/
+.banner-top {
+  font-size: 50px;
+  font-family: 'Raleway', sans-serif;
+  color: black;
+  font-weight: bold;
+  font-height: 500px;
+  bottom: 8px;
+  right: 16px;
+}
+
+/*Media Video*/
+#media-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%); 
+}
+
+/*Media Button*/
+.btn-transparent {
+    position: absolute;
+    background: transparent;
+    color: #F2F2F2;
+    -webkit-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -moz-transition: background .2s ease-in-out, border .2s ease-in-out;
+    -o-transition: background .2s ease-in-out, border .2s ease-in-out;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+    border: 2px solid #4992B7;
+}
+
+.btn-transparent:hover {
+    color: white;
+    background-color: rgba(255,255,255,0.2);
+}
+
+/*portfolio page*/
+.no-padding {
+  padding: 0!important;
+}
+
+.myGallery {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.myGallery:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=30);
+}
+
+/*home page*/
+#home-about {
+  font-family: 'Raleway', sans-serif;
+  font-size: 60%;
+}
+
+.about-me {
+  max-height: 2000px;
+  background-color: white;
+  font-size: 15px;
+}
+
+/*About us img*/
+#about-us-img {
+  width: 100%;
+  height: 100%;
+}
+
+/*Contact us img*/
+#contact-us-img {
+  width: 100%;
+}
+
+/*Footer Section*/
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 10px;
+}
+
+footer a {
+  color: #f5f5f5;
+}
+
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+
+#banner-1 {
+  font-family: 'Ultra', serif;
+}
+
+/*Layout For Page Transitions*/
+#wrapper {
+    width: 950px;
+    margin: 0 auto;
+    }
+    
+#header {
+    padding-top: 40px;
+    width: 950px;
+    }
+    
+p {
+    font-size: 1.4em;
+    width: 400px;
+    }
+    
+a:link,   
+a:visited {
+    color: #a2b52d;
+    text-decoration: none;
+    }
+    
+a:hover, 
+a:focus {
+    border-bottom: 1px dotted #a2b52d;
+    }
+
+/*coming soon page*/
+#bgimg {
+  background-image: url("../assets/coming-soon.jpg");
+  background-attachment: fixed;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner-text-5 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 400%;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Wedding Packages*/
+.wedding-packages {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 400%;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 20%;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*book online */
+.book-online {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 400%;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 20%;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 80px;
+}
